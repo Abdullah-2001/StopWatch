@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch</title>
+</head>
+
+<body>
+    
+    <!-- <p>Analog <span class="golden">Clock</span></p> -->
+
+    <div class="button-container">
+
+        <div class="main-buttons stop">
+            <div onclick="resetButton()" id="top-left" class="button"></div>
+            <div id="gap-1" class="gap"></div>
+            <div class="holder"></div>
+        </div>
+
+        <div class="clip"></div>
+
+        <div class="main-buttons start">
+            <div onclick="startButton()" id="top-right" class="button"></div>
+            <div id="gap-2" class="gap"></div>
+            <div class="holder"></div>
+        </div>
+
+    </div>
+
+    <div class="clock-body">
+
+        <div id="main">
+
+            <div id="main2">
+
+                <div id="hours">
+                    <div id="hr"></div>
+                </div>
+
+                <div id="minutes">
+                    <div id="mn"></div>
+                </div>
+
+                <div id="seconds">
+                    <div id="sc"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
